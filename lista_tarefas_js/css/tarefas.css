@@ -1,0 +1,240 @@
+
+body {
+  margin:0px;
+  padding:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#efefef;
+  text-align:center;
+}
+
+h1 {
+  text-align: center;
+  color:#008f95;
+  
+  
+}
+
+.pagina{
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+width:80vw;
+
+background-color:#efefef;
+}
+
+.lista-tarefas{
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+margin:0px;
+padding:0px;
+width:80vw;
+margin:auto;
+background-color:#efefef;
+}
+
+.header{
+background-color:#efefef;	
+	width:80vw;
+}
+.caixa-entrada {
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+gap:10px;
+width:80vw;
+margin:auto;
+background-color:#efefef;
+padding-top:10px;
+padding-bottom:50px;
+}
+
+.inputBox{
+flex:1;	
+border: none;
+  height: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+  color:white;
+  margin:0px;
+  background-color:#dadada;
+  padding-left:10px;
+}
+
+
+.addBtn{
+	flex:none;
+}
+
+.cleanBtn{
+	flex:none;
+}
+
+.clearBtn{
+flex:none;	
+}
+
+
+.textoEntrada {
+ border: none;
+  height: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+  color:white;
+  margin:0px;
+  padding:0px;
+  background-color:#111111;
+}
+
+
+
+.apaga{
+background:#ff3b3f;	
+}
+
+.adiciona{	
+background:#ff3b3f;	
+}
+
+.apagaconcluidas{
+background:#ff3b3f;		
+	
+}
+
+button.botoes { 
+  cursor: pointer;
+  color: white;
+  border: none;
+  height: 30px;
+  font-weight:bold;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.main{
+margin:0px;
+
+width:80vw;
+margin:auto;
+background-color:#efefef;
+}
+
+ul{
+display: flex;
+flex-flow: column wrap;
+gap:10px;
+margin:0px;
+padding:0px;
+width:80vw;
+margin:auto;
+background-color:#efefef;
+	list-style-type: none;
+
+}
+
+li {
+	display: flex;
+	flex-flow: row wrap;
+    align-items: center;
+ padding-left:10px;
+  height:50px;
+  border-radius: 5px;
+  background:#a9a9a9;
+  color:white;
+
+
+}
+
+ul li:nth-child(odd) {
+background:#565656;
+color:white;
+ padding-left:10px;
+}
+
+
+.concluido{
+	text-decoration:line-through;
+	flex:2;
+	text-align:left;
+	
+}
+
+.notdone{
+	flex:2;
+	text-align:left;
+}
+
+.eliminar{
+	font-size:30px;
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+	width:25px;
+	flex:none;
+}
+
+.eliminar:hover{
+	color:#ff3b3f;
+}
+
+.visto{
+	font-size:18px;
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	width:25px;
+	flex:none;
+}
+
+.visto:hover{
+	color:#ff3b3f;
+}
+
+.editar{
+	font-size:22px;
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	width:25px;
+	flex:none;
+}
+
+.editar:hover{
+	color:#ff3b3f;
+}
+
+/* --------------------rodapé-------------------- */
+.footer{
+	width:100vw;
+	margin:0px;
+	border:0px;
+	position:fixed;
+	bottom:0;
+	background-color:black;
+	box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+.footer-flex{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	}

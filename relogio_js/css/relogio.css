@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+html{
+	scroll-behavior: smooth;
+	}
+
+body{        
+	margin:0px;
+	border:0px;	        
+	font-family: "arial", "verdana", "sans-serif";	
+    background-color:white;
+	}
+	
+.pagina{
+	display:flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	background-color:white;
+	width:100%;
+	justify-content:space-around;
+	align-items:center;
+	}
+	
+
+.header{
+	position:fixed;
+	width:100vw;
+	top:0px;
+	left:0px;
+	right:0px;
+	z-index:1;
+	background-color:#ffcf00;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:hidden;
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;
+	padding:20px;	
+	}
+
+/* --------------------relogio-------------------- */
+.clock {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	margin:0px;
+	padding:0px;
+	width:100vw;
+	height:100vh;
+	background-color:white;
+	}
+
+.clock-flex{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	background-color:#5d00c0;
+	width:40vw;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:20px;	
+	}
+
+.clock-text-flex{
+	display:flex;
+	color:white;
+	flex-direction:row;
+	flex-wrap:wrap;
+	}
+
+.clock-text-flex h1{
+	font-size:72px;
+	}
+	
+/* --------------------rodapé-------------------- */
+.footer{
+	width:100vw;
+	margin:0px;
+	border:0px;
+	position:fixed;
+	bottom:0;
+	background-color:black;
+	box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+.footer-flex{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	}

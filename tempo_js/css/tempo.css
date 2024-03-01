@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background-color:#24232B;
+	font-family:"Arial", "sans-serif";
+	
+}
+
+.tempoCard {
+    display: flex;
+    border-style: none;
+	border-radius: 20px;
+	color:white;
+	background-color:#151515;
+	width:200px;
+	height:350px;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+
+#local {
+flex:1;
+padding:10px;
+
+}
+
+#tempCelsius {
+	padding: 5px;
+	font-size: 48px;
+	font-weight: bolder;
+	flex:2;
+}
+
+#tempFarenheit {
+	flex:1;
+	padding: 3px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#icone {
+	flex:1;
+	padding: 3px;
+}
+
+#descricao{
+	flex:1;
+	padding: 3px;
+	
+}
+
+.supC{
+	font-size:18px;
+}
+
+.supF{
+	font-size: 12px;
+}
+
+.supLoc{
+	background-color: darkorange;
+	border:none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 3px;
+	font-size: 10px;
+	
+}
+
+
+/* --------------------rodapé-------------------- */
+.footer{
+	width:100vw;
+	margin:0px;
+	border:0px;
+	position:fixed;
+	bottom:0;
+	background-color:crimson;
+	box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+.footer-flex{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	}
